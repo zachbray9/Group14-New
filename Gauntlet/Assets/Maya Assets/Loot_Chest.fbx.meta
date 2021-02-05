@@ -3,7 +3,22 @@ guid: 17672d5090b8511498fefed8d1bded35
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chest_Mat
+    second: {fileID: 2100000, guid: fef7db023824b134e9a2c85274e7612e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lock_Mat
+    second: {fileID: 2100000, guid: c20293ac075b7234f850f532993c3e4f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ChestUV
+    second: {fileID: 2800000, guid: 26a53495d9329b847ad82d0170c136a4, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
