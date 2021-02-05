@@ -16,9 +16,9 @@ public class PickUpHandler : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision collider)
+    void OnTriggerEnter(Collider other)
     {
-        if(collider.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
         }
