@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ChestUV
-    second: {fileID: 2800000, guid: 26a53495d9329b847ad82d0170c136a4, type: 3}
+    second: {fileID: 2800000, guid: 7d19d4e6d78629445b3dfb00e18084ed, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
