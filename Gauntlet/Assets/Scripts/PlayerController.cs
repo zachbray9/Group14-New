@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         {
             KeyAmount = KeyAmount + 1;
             Destroy(other.gameObject);
-            Debug.Log(KeyAmount);
+            
         }
         if (other.gameObject.tag == "Door")
         {
