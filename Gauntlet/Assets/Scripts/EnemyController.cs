@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     int numTimesHit;
  
  
-    void Start()
+    void Awake()
     {
         Player = GameObject.FindWithTag("Player").transform;
         numTimesHit = 0;
