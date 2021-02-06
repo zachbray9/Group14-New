@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 456979109322032384}
   - component: {fileID: 2428411470623207882}
   - component: {fileID: 2371412228881582701}
+  - component: {fileID: 585497058578225568}
+  - component: {fileID: 8585011359598266022}
   m_Layer: 0
   m_Name: FlyingHead_Spawner
   m_TagString: Untagged
@@ -98,6 +100,35 @@ MonoBehaviour:
   prefabToSpawn: {fileID: 2362572866200061108, guid: 72a6356b480923f4ab0f8fce1b4d8485, type: 3}
   spawnTime: 3
   spawnTimeRandom: 1
+--- !u!65 &585497058578225568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4229881902566559775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 0.7310871, z: 0.7}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8585011359598266022
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4229881902566559775}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!114 &4034896921105146383
 MonoBehaviour:
   m_ObjectHideFlags: 0

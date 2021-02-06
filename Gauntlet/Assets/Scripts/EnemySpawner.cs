@@ -8,12 +8,14 @@ public class EnemySpawner : MonoBehaviour
     public GameObject prefabToSpawn;
     public float spawnTime;
     public float spawnTimeRandom;
+    int numTimesHit;
 
     private float spawnTimer;
 
     // Start is called before the first frame update
     void Start()
     {
+        numTimesHit = 0;
         ResetSpawnTimer();
     }
 
@@ -26,6 +28,19 @@ public class EnemySpawner : MonoBehaviour
         {
             Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
             ResetSpawnTimer();
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Projectile")
+        {
+            numTimesHit += 1;
+        }
+
+        if(numTimesHit >= 2)
+        {
+            Destroy(this.gameObject);
         }
     }
 

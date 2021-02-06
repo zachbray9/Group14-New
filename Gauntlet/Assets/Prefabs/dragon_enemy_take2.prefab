@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 1257919254064845359}
   - component: {fileID: 1657253849997508362}
   - component: {fileID: 1657253849997508361}
-  - component: {fileID: 1657253849997508363}
+  - component: {fileID: 5416551682075658393}
   m_Layer: 0
   m_Name: dragon_enemy_take2
   m_TagString: Enemy
@@ -150,7 +150,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1115017, y: 1, z: 1.9739281}
   m_Center: {x: -0.02760315, y: 0, z: 0.06153351}
---- !u!114 &1657253849997508363
+--- !u!114 &5416551682075658393
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,10 +159,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1891184502766078101}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c310106e01b0a14785272cbdea160a6, type: 3}
+  m_Script: {fileID: 11500000, guid: f91b464eb25fbd243bfc6ba227932980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 7083579724334577764, guid: 77673d2bb8902c84f8341d31e59c9da5, type: 3}
+  Player: {fileID: 0}
 --- !u!1 &2244342956276863127
 GameObject:
   m_ObjectHideFlags: 0
