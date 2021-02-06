@@ -9,13 +9,15 @@ public class PlayerController : MonoBehaviour
     float moveHorizontal;
     float moveVertical;
     public float speed = 6f;
+
+    public static int KeyAmount = 0;
     
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        KeyAmount = 0;
     }
 
     // Update is called once per frame
@@ -37,4 +39,23 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    void OnTriggerEnter(Collider other) 
+    {
+        if (other.gameObject.tag == "Key")
+        {
+            KeyAmount = KeyAmount + 1;
+            Destroy(other.gameObject);
+            Debug.Log(KeyAmount);
+        }
+        if (other.gameObject.tag == "Door")
+        {
+            if (0 < KeyAmount)
+            {
+                KeyAmount = KeyAmount - 1;
+                Destroy(other.gameObject);
+            }
+        }
+    }
+
+    
 }
