@@ -111,10 +111,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate (27)
       objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
 --- !u!4 &7463454020563613051 stripped
@@ -176,10 +172,6 @@ PrefabInstance:
     - target: {fileID: 8027862907685583136, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
       propertyPath: m_Name
       value: Gate (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
@@ -243,10 +235,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate (35)
       objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
 --- !u!4 &5744270171482057140 stripped
@@ -308,10 +296,6 @@ PrefabInstance:
     - target: {fileID: 8027862907685583136, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
       propertyPath: m_Name
       value: Gate (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
@@ -375,10 +359,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate (24)
       objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
 --- !u!4 &6079883969827748337 stripped
@@ -440,10 +420,6 @@ PrefabInstance:
     - target: {fileID: 8027862907685583136, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
       propertyPath: m_Name
       value: Gate (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
@@ -507,10 +483,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
 --- !u!4 &4439296232732987796 stripped
@@ -572,10 +544,6 @@ PrefabInstance:
     - target: {fileID: 8027862907685583136, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
       propertyPath: m_Name
       value: Gate (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
@@ -639,10 +607,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate (28)
       objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
 --- !u!4 &817166997639079719 stripped
@@ -704,10 +668,6 @@ PrefabInstance:
     - target: {fileID: 8027862907685583136, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
       propertyPath: m_Name
       value: Gate (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
@@ -771,10 +731,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate (33)
       objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
 --- !u!4 &2079575544185701391 stripped
@@ -836,10 +792,6 @@ PrefabInstance:
     - target: {fileID: 8027862907685583136, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
       propertyPath: m_Name
       value: Gate (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9105514377556076234, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea84bb31ce54494baf79d4bd69dc9cf, type: 3}
