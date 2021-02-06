@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 1891184502766078101, guid: 5c250dc20550b22478b15022dc3eddbc, type: 3}
-  spawnTime: 3
+  spawnTime: 6
   spawnTimeRandom: 1
 --- !u!54 &41356726488329825
 Rigidbody:

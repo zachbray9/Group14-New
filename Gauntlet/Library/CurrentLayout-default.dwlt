@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 78
+  controlID: 143
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 79
+  controlID: 144
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 80
+  controlID: 145
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -872,21 +872,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\zachb\OneDrive\Documents\Github Repositories\Group14-New\Gauntlet
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 583f0000
-    m_LastClickedID: 16216
-    m_ExpandedIDs: 00000000483f000000ca9a3b
+    m_SelectedIDs: 743b0000
+    m_LastClickedID: 15220
+    m_ExpandedIDs: 00000000663b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -914,7 +914,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000483f0000
+    m_ExpandedIDs: 00000000663b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1036,9 +1036,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ee600000
       m_LastClickedID: 0
-      m_ExpandedIDs: 9caafeff64b7feff7053ffff4488ffff1e8dffffb09effff9ea3ffff90b2ffffb6b7ffff6ec4ffff2ae2ffff
+      m_ExpandedIDs: dad0feffd830ffffc2f6ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1098,9 +1098,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.376172, y: -26.705103, z: -0.06660652}
+    m_Target: {x: -19.202076, y: 6.21107, z: 52.72385}
     speed: 2
-    m_Value: {x: 6.376172, y: -26.705103, z: -0.06660652}
+    m_Value: {x: -19.202076, y: 6.21107, z: 52.72385}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1147,13 +1147,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.41881895, y: 0.13800739, z: -0.059423584, w: 0.8961215}
+    m_Target: {x: 0.5802326, y: -0.032102514, z: 0.028735712, w: 0.81394327}
     speed: 2
-    m_Value: {x: 0.4185159, y: 0.13928038, z: -0.060021136, w: 0.8954568}
+    m_Value: {x: 0.5799341, y: -0.032085996, z: 0.028720928, w: 0.8135245}
   m_Size:
-    m_Target: 30.019426
+    m_Target: 4.6804996
     speed: 2
-    m_Value: 28.726725
+    m_Value: 4.6804996
   m_Ortho:
     m_Target: 0
     speed: 2
