@@ -5,19 +5,17 @@ using UnityEngine.UI;
 
 public class StatManager : MonoBehaviour
 {
-    public static int health = 2000;
+    public static float health = 2001f;
     public static int points = 0;
 
     public Text healthText;
     public Text pointsText;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
-
-        //health = 2000;
-        //points = 0;
 
     }
 
@@ -26,14 +24,16 @@ public class StatManager : MonoBehaviour
     {
         setHealthText();
         setPointsText();
+        loseHealth(1 * Time.deltaTime);
+        
     }
 
     void setHealthText()
     {
-        healthText.text = "Health\n" + health.ToString();
+        healthText.text = "Health\n" + ((int)health).ToString();
     }
 
-    public void loseHealth(int damage)
+    public void loseHealth(float damage)
     {
         health -= damage;
     }
@@ -47,4 +47,5 @@ public class StatManager : MonoBehaviour
     {
         points += pointsGained;
     }
+
 }
