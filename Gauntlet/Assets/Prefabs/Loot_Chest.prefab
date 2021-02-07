@@ -172,10 +172,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6330613131221492673}
   - component: {fileID: 5787233717283411017}
-  - component: {fileID: 5787233717283411016}
   m_Layer: 0
   m_Name: Loot_Chest
-  m_TagString: Untagged
+  m_TagString: LootChest
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,15 +208,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1998484, y: 0.11364916, z: 0.13344282}
   m_Center: {x: -0.00018636137, y: -0.0026935935, z: -0.0012787282}
---- !u!114 &5787233717283411016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6670125401744947579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2130c5b51caf7b642ab031a03ce83b35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

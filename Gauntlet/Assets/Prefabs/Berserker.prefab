@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3713863708958187808}
   - component: {fileID: 5551621933293890156}
   - component: {fileID: 7786328161170933621}
+  - component: {fileID: 2005740539}
   m_Layer: 0
   m_Name: Berserker
   m_TagString: Player
@@ -104,7 +105,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 116
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &3713863708958187808
 CapsuleCollider:
@@ -127,7 +128,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5013004907503884604}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74caef10df7137c40bc990fd491b2138, type: 3}
   m_Name: 
@@ -148,6 +149,19 @@ MonoBehaviour:
   projectileEmitter: {fileID: 5961417796967517216}
   prefabToSpawn: {fileID: 8863900226636594282, guid: e4fad654ad7cdc84d893fbefa058ea68, type: 3}
   projectileSpeed: 100
+--- !u!114 &2005740539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5013004907503884604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79ee79f1851d7b49840eb89ae9673ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &5961417796967517216
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,7 +186,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5961417796967517216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.252}
+  m_LocalPosition: {x: 0, y: 0, z: 0.287}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5681877845190591366}

@@ -12,11 +12,16 @@ public class PlayerController : MonoBehaviour
 
     public static int KeyAmount = 0;
     
+    private int points;
+    private int health;
+    
 
 
     // Start is called before the first frame update
     void Start()
     {
+        health = 2000;
+        points = 0;
         KeyAmount = 0;
     }
 
@@ -44,9 +49,10 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Key")
         {
             KeyAmount = KeyAmount + 1;
+            points += 100;
             Destroy(other.gameObject);
-            
         }
+
         if (other.gameObject.tag == "Door")
         {
             if (0 < KeyAmount)
@@ -54,6 +60,12 @@ public class PlayerController : MonoBehaviour
                 KeyAmount = KeyAmount - 1;
                 Destroy(other.gameObject);
             }
+        }
+
+        if(other.gameObject.tag == "LootChest")
+        {
+            points += 100;
+            Destroy(other.gameObject);
         }
     }
 
