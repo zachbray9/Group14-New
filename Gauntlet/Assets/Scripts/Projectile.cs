@@ -8,10 +8,13 @@ public class Projectile : MonoBehaviour
     public GameObject prefabToSpawn;
     public float projectileSpeed;
 
+    AudioSource audioSource;
+    public  AudioClip ProjectileSound;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+       audioSource = GetComponent<AudioSource>(); 
     }
 
     // Update is called once per frame
@@ -30,6 +33,8 @@ public class Projectile : MonoBehaviour
             tempRigidbody.AddForce(transform.forward * projectileSpeed);
 
             Destroy(tempProjectileHandler, 3f);
+            
+            audioSource.PlayOneShot(ProjectileSound);
        } 
     }
 
