@@ -43,8 +43,8 @@ GameObject:
   - component: {fileID: 7819102671301248734}
   - component: {fileID: 1384930929425606916}
   - component: {fileID: 7327674294360501325}
-  - component: {fileID: 2372759024839259026}
   - component: {fileID: 1296872264473575426}
+  - component: {fileID: 3622647069958754445}
   m_Layer: 0
   m_Name: Paladin
   m_TagString: Player
@@ -147,19 +147,6 @@ CapsuleCollider:
   m_Height: 1.8644831
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2372759024839259026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8611995210338510603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74caef10df7137c40bc990fd491b2138, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &1296872264473575426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,3 +162,16 @@ MonoBehaviour:
   projectileEmitter: {fileID: 4842689139598023472}
   prefabToSpawn: {fileID: 853451542908193548, guid: 65711799b15f9bf46b60ccee1c4678fa, type: 3}
   projectileSpeed: 100
+--- !u!114 &3622647069958754445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8611995210338510603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79ee79f1851d7b49840eb89ae9673ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10

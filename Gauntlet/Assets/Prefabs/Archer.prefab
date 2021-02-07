@@ -43,8 +43,8 @@ GameObject:
   - component: {fileID: 5696254660352353426}
   - component: {fileID: 6810182295106081619}
   - component: {fileID: 3637387161817640940}
-  - component: {fileID: 5906597447016434482}
   - component: {fileID: 178516384673461144}
+  - component: {fileID: 357775081492241721}
   m_Layer: 0
   m_Name: Archer
   m_TagString: Player
@@ -158,19 +158,6 @@ CapsuleCollider:
   m_Height: 0.0052078883
   m_Direction: 1
   m_Center: {x: 0.000012578965, y: 0.000043943724, z: 0.000039639126}
---- !u!114 &5906597447016434482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6056731402112107847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74caef10df7137c40bc990fd491b2138, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &178516384673461144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,3 +173,16 @@ MonoBehaviour:
   projectileEmitter: {fileID: 4080635670984366453}
   prefabToSpawn: {fileID: 1268111949463606623, guid: e82a362e511e8c3448b134e0c2942904, type: 3}
   projectileSpeed: 100
+--- !u!114 &357775081492241721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6056731402112107847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79ee79f1851d7b49840eb89ae9673ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10

@@ -528,8 +528,8 @@ GameObject:
   - component: {fileID: 7509152353176306149}
   - component: {fileID: 4692860206626054833}
   - component: {fileID: 5850242995475969505}
-  - component: {fileID: 7599358646619040088}
   - component: {fileID: 6669160240958266218}
+  - component: {fileID: 7516207463210291803}
   m_Layer: 0
   m_Name: Mage
   m_TagString: Player
@@ -584,19 +584,6 @@ CapsuleCollider:
   m_Height: 2.08026
   m_Direction: 1
   m_Center: {x: -0.006126821, y: -0.03418553, z: -0.0067532063}
---- !u!114 &7599358646619040088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7169184060205210463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74caef10df7137c40bc990fd491b2138, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &6669160240958266218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,6 +599,19 @@ MonoBehaviour:
   projectileEmitter: {fileID: 6500557549544753178}
   prefabToSpawn: {fileID: 5033973846424942178, guid: c1894cdda8dcd634686ef79bb7e2d1ee, type: 3}
   projectileSpeed: 100
+--- !u!114 &7516207463210291803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169184060205210463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79ee79f1851d7b49840eb89ae9673ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &7213766702096186239
 GameObject:
   m_ObjectHideFlags: 0

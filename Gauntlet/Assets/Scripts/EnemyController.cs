@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class FlyingHeadController : MonoBehaviour
 {
-
+    private Rigidbody rigidbody;
+    private Vector3 movement;
  
     public Transform Player;
     int MoveSpeed = 4;
@@ -15,12 +16,14 @@ public class FlyingHeadController : MonoBehaviour
  
     void Awake()
     {
+        rigidbody = GetComponent<Rigidbody>();
         Player = GameObject.FindWithTag("Player").transform;
         numTimesHit = 0;
     }
  
-     void FixedUpdate()
+     void Update()
      {
+         movement = new Vector3()
          transform.LookAt(Player);
  
          if (Vector3.Distance(transform.position, Player.position) >= MinDist)
@@ -36,6 +39,11 @@ public class FlyingHeadController : MonoBehaviour
              }
  
          }
+     }
+
+     void FixedUpdate()
+     {
+         rigidbody.velocity = movement;
      }
 
      void OnCollisionEnter(Collision collided)
