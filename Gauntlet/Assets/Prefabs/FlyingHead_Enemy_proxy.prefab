@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 3135168541706460686}
   - component: {fileID: 3173034773502038168}
   - component: {fileID: 3173034773502038183}
-  - component: {fileID: 3173034773502038182}
+  - component: {fileID: 8429447915074063997}
   m_Layer: 0
   m_Name: FlyingHead_Enemy_proxy
   m_TagString: Enemy
@@ -142,9 +142,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.006566216, y: 0.005690205, z: 0.0057272683}
-  m_Center: {x: -0.00011055887, y: -0.00019812644, z: 0.00260325}
---- !u!114 &3173034773502038182
+  m_Size: {x: 0.005598507, y: 0.005690205, z: 0.0057272683}
+  m_Center: {x: 0.000034755616, y: -0.00019812644, z: 0.00260325}
+--- !u!114 &8429447915074063997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2362572866200061108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c310106e01b0a14785272cbdea160a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 13022335c9ad45847a9f66ff4e94a346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}

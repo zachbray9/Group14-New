@@ -11,7 +11,11 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         vcam = GetComponent<CinemachineVirtualCamera>();
-        
+    }
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
     }
     
     // Update is called once per frame

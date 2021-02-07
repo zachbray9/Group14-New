@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerControllerFixed : MonoBehaviour
 {
+    private StatManager statManager;
+
     private Rigidbody rigidbody;
     private Vector3 inputVector;
 
@@ -13,17 +15,12 @@ public class PlayerControllerFixed : MonoBehaviour
 
     public static int KeyAmount = 0;
     
-    private int points;
-    private int health;
-    
-
 
     // Start is called before the first frame update
     void Start()
     {
+        statManager = GameObject.FindObjectOfType<StatManager>();
         rigidbody = GetComponent<Rigidbody>();
-        health = 2000;
-        points = 0;
         KeyAmount = 0;
     }
 
@@ -46,7 +43,7 @@ public class PlayerControllerFixed : MonoBehaviour
         if (other.gameObject.tag == "Key")
         {
             KeyAmount = KeyAmount + 1;
-            points += 100;
+            statManager.getPoints(100);
             Destroy(other.gameObject);
         }
 
@@ -61,8 +58,10 @@ public class PlayerControllerFixed : MonoBehaviour
 
         if(other.gameObject.tag == "LootChest")
         {
-            points += 100;
+            statManager.getPoints(100);
             Destroy(other.gameObject);
         }
     }
+
+
 }
