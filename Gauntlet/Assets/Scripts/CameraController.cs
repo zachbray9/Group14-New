@@ -11,12 +11,13 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         vcam = GetComponent<CinemachineVirtualCamera>();
-        player = GameObject.FindWithTag("Player").transform;
+        
     }
     
     // Update is called once per frame
     void Update()
     {
+        player = GameObject.FindWithTag("Player").transform;
         vcam.Follow = player;
         vcam.LookAt = player;
         
