@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 1657253849997508362}
   - component: {fileID: 1657253849997508361}
   - component: {fileID: 8713054328211370081}
+  - component: {fileID: 885302081416585171}
   m_Layer: 0
   m_Name: dragon_enemy_take2
   m_TagString: Enemy
@@ -146,7 +147,7 @@ BoxCollider:
   m_GameObject: {fileID: 1891184502766078101}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.1115017, y: 1, z: 1.9739281}
   m_Center: {x: -0.02760315, y: 0, z: 0.06153351}
@@ -163,6 +164,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
+--- !u!136 &885302081416585171
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891184502766078101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5905454
+  m_Height: 1.8929889
+  m_Direction: 2
+  m_Center: {x: 0.0023012161, y: 0.06295043, z: 0.16742957}
 --- !u!1 &2244342956276863127
 GameObject:
   m_ObjectHideFlags: 0
