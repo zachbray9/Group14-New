@@ -11,12 +11,19 @@ public class StatManager : MonoBehaviour
     public Text healthText;
     public Text pointsText;
 
+    public GameObject completeLevelUI;
+
+    public void CompleteLevel()
+    {
+        completeLevelUI.SetActive(true);
+    }
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        completeLevelUI.SetActive(false);
     }
 
     // Update is called once per frame
