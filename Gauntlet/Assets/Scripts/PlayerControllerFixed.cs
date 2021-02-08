@@ -61,6 +61,18 @@ public class PlayerControllerFixed : MonoBehaviour
             statManager.getPoints(100);
             Destroy(other.gameObject);
         }
+
+        if(other.gameObject.tag == "HealthPotion")
+        {
+            statManager.loseHealth(-500);
+            Destroy(other.gameObject);
+        }
+
+        if(other.gameObject.tag == "SpeedPotion")
+        {
+            speed += 2.0f;
+            Destroy(other.gameObject);
+        }
     }
 
 
