@@ -594,10 +594,13 @@ MonoBehaviour:
   EndScemeL: 1
   LoseWinText: {fileID: 1820620619}
   ScoreText: {fileID: 475155033}
+  LivesText: {fileID: 0}
+  LevelText: {fileID: 0}
   PaladinPrefab: {fileID: 0}
   MagePrefab: {fileID: 0}
   ArcherPrefab: {fileID: 0}
   BerserkerPrefab: {fileID: 0}
+  GameLose: 0
 --- !u!4 &1292891379
 Transform:
   m_ObjectHideFlags: 0
@@ -624,7 +627,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0803a96cc8b87b741aec0748511e8389, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
