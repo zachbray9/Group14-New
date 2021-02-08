@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class StatManager : MonoBehaviour
 {
@@ -15,7 +16,8 @@ public class StatManager : MonoBehaviour
 
     public void CompleteLevel()
     {
-        completeLevelUI.SetActive(true);
+        SceneManager.LoadScene("LoseWin");
+        selectorScript.GameWin = true;
     }
 
 
@@ -23,7 +25,13 @@ public class StatManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        completeLevelUI.SetActive(false);
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        string sceneName = currentScene.name;
+        if(sceneName == "Level2")
+        {
+            completeLevelUI.SetActive(false);
+        }
     }
 
     // Update is called once per frame
